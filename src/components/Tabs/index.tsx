@@ -26,9 +26,12 @@ export const Tabs = <TName extends string = string>({
   );
 
   const onTabChangeInternal: ChangeEventHandler<HTMLSelectElement> =
-    useCallback((event) => {
-      event.target.value;
-    }, []);
+    useCallback(
+      (event) => {
+        onTabChange(event.target.value as TName);
+      },
+      [onTabChange],
+    );
 
   return (
     <>
@@ -46,6 +49,7 @@ export const Tabs = <TName extends string = string>({
           {tabList.map((tab) => (
             <option
               key={tab.name}
+              value={tab.name}
             >{`${tab.name} (${tab.items.length})`}</option>
           ))}
         </select>
