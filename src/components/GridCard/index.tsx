@@ -26,7 +26,7 @@ export const GridCard: FC<GridCardProps> = ({ item }) => {
           <Image src={item.logo} alt="" className="h-10 w-10" unoptimized />
         </div>
         <h2 className="ml-2 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-          <Card.Link href={item.link.href} target="_blank">
+          <Card.Link href={item.link.href} target={item.target}>
             {item.name}
           </Card.Link>
         </h2>
