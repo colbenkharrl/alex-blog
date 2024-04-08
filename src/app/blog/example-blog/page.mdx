@@ -1,0 +1,129 @@
+import { BlogLayout } from '@/components/BlogLayout';
+import { MdxImage } from '@/components/MdxImage';
+import blogImage from './opengraph-image.png';
+
+export const blog = {
+  author: 'Alex Kharrl',
+  date: '2024-04-14',
+  title: 'Example Blog',
+  description: 'This is an example blog for you to see all the posibilities!',
+  image: blogImage,
+};
+
+export const metadata = {
+  title: blog.title,
+  description: blog.description,
+};
+
+export default (props) => <BlogLayout blog={blog} {...props} />;
+
+<figure className="flex flex-col items-center justify-center">
+  <MdxImage
+    src={blogImage}
+    alt="image of a notebook sketch of a gavel bike"
+    className="max-w-xs"
+  />
+  <figcaption>AI-generated blog photo.</figcaption>
+</figure>
+
+## How to Write a Markdown Blog Post
+
+Welcome to our guide on writing a markdown blog post! Markdown is a lightweight markup language with plain-text formatting syntax that you can use to add elements like headings, lists, tables, and links to your text. This guide will show you how to leverage markdown to create engaging and well-formatted blog posts.
+
+### Getting Started with Markdown
+
+First, you need to understand the basics of markdown. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid HTML. Here are some essentials:
+
+#### Headings
+
+Use `#` for headings. More `#` symbols mean a deeper subsection:
+
+```markdown
+# Heading 1
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+```
+
+#### Lists
+
+Markdown supports ordered and unordered lists.
+
+Unordered list:
+
+```markdown
+- Item 1
+- Item 2
+  - Subitem 2.1
+  - Subitem 2.2
+```
+
+Ordered list:
+
+```markdown
+1. First item
+2. Second item
+3. Third item
+```
+
+#### Tables
+
+Creating tables in markdown is straightforward:
+
+```markdown
+| Header 1 | Header 2 | Header 3 |
+| -------- | -------- | -------- |
+| Row 1    | Data     | Data     |
+| Row 2    | Data     | Data     |
+```
+
+#### Links
+
+To add a link, wrap the link text in brackets and the URL in parentheses:
+
+```markdown
+[OpenAI](https://www.openai.com)
+```
+
+### Tips for Writing an Engaging Blog
+
+1. **Plan Your Content**: Outline the main points you want to cover.
+2. **Be Concise**: Write in a clear and straightforward manner.
+3. **Use Markdown Features**: Leverage lists, tables, and links to structure your content effectively.
+4. **Engage Your Readers**: Ask questions or propose scenarios that encourage interaction.
+
+### Example Blog Post
+
+Below is a short example of a blog post written in markdown:
+
+```markdown
+## Welcome to Our Blog
+
+Welcome to our blog! Here, we share tips, updates, and stories about our journey.
+
+### Latest Updates
+
+- **Project Alpha Release**: We've just launched the alpha version of Project Alpha. Check it out [here](#).
+- **Upcoming Events**: Join us for our webinar on the future of technology on July 10th. [Register now](#).
+
+### Get Involved
+
+We love hearing from our readers. Here are a few ways to get involved:
+
+1. **Feedback**: Share your thoughts on our latest projects.
+2. **Contribute**: Got an idea? We're always looking for guest contributors.
+3. **Follow Us**: Stay updated by following our social media channels.
+
+Thank you for visiting our blog!
+```
+
+### Conclusion
+
+Now that you've seen how markdown can structure and format your blog post, it's time to start writing your own. Remember, the key to a great blog post is not just the content but also how well it's presented. Markdown can help make your post readable and engaging, so take advantage of its features.
+
+For more detailed markdown syntax, check out the [Markdown Guide](https://www.markdownguide.org).
+
+Happy writing!
