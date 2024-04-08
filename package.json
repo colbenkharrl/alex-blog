@@ -4,11 +4,8 @@
   "private": true,
   "scripts": {
     "build:next": "next build",
-    "build:storybook": "storybook build -o public/storybook --docs",
-    "build:all": "yarn build:storybook && yarn build:next",
     "start:next-dev": "next dev",
     "start:next-prod": "next start",
-    "start:storybook": "storybook dev -p 6006",
     "lint": "next lint"
   },
   "dependencies": {
