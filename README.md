@@ -25,7 +25,7 @@ To set up your development environment and start working on the project, follow 
 
 2. **Clone the Repository:**
 
-   - In the terminal, navigate to the directory where you want to clone the project.
+   - In the [terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac), navigate to the directory where you want to clone the project.
    - Run the following command:
 
      ```bash
