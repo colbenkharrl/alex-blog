@@ -6,6 +6,14 @@
 
 This is the code project behind my [personal website and professional portfolio](https://alex.kharrl.com/).
 
+**Table of Contents**
+
+- [Getting Started](#getting-started)
+- [Managing Content](#managing-content)
+- [Developing](#developing)
+- [Deploying](#deploying)
+- [Technology](#technology)
+
 ## Getting Started
 
 To set up your development environment and start working on the project, follow these steps:
