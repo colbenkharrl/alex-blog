@@ -26,7 +26,7 @@ To set up your development environment and start working on the project, follow 
 2. **Clone the Repository:**
 
    - In the terminal, navigate to the directory where you want to clone the project.
-   - Run the following command, replacing `<repo-url>` with the URL of the repository:
+   - Run the following command:
 
      ```bash
      git clone https://github.com/colbenkharrl/alex-blog.git
@@ -37,12 +37,11 @@ To set up your development environment and start working on the project, follow 
    - After cloning, open Visual Studio Code.
    - Click "File" > "Open Folder," and select the project's root folder.
 
-     **Note:** You can [download Visual Studio Code here](https://code.visualstudio.com/download).
+   **Note:** You can [download Visual Studio Code here](https://code.visualstudio.com/download).
 
 4. **Install Yarn:**
 
-   - Yarn is an alternative package manager preferred for this project.
-   - To install Yarn globally, open your terminal/command prompt and run:
+   - Install Yarn globally by opening your terminal/command prompt and running:
 
      ```bash
      npm install -g yarn
@@ -52,8 +51,6 @@ To set up your development environment and start working on the project, follow 
 
 5. **Install Project Dependencies:**
 
-   - In Visual Studio Code, open a new terminal (or use your system terminal).
-   - Ensure the terminal is in the project's root folder.
    - Run the following command to install all project dependencies:
 
      ```bash
@@ -62,7 +59,7 @@ To set up your development environment and start working on the project, follow 
 
 6. **Start the Development Server:**
 
-   - With all dependencies installed, start the development server by running:
+   - Start the development server by running:
 
      ```bash
      yarn start
